@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
-      <div className="flex items-center justify-between basis-2/3 grow">
+      <div className="hidden lg:flex items-center justify-between basis-2/3 grow">
         <div>
           <a
             href="http://"
