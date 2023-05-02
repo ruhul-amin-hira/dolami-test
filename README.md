@@ -1,6 +1,6 @@
 # Avatown page demo
 
-![Screenshot](./public/1.png)
+![Screenshot](./public/s1.png)
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
