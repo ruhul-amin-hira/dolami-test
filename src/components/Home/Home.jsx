@@ -1,3 +1,5 @@
+import { products } from "../../utils/products";
+import Card from "./Card";
 import RightFilter from "./RightFilter/RightFilter";
 
 const Home = () => {
@@ -12,8 +14,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="grow basis-[722px]  flex justify-center bg-blue-300">
-          <h1>Main page</h1>
+        <div className="grow basis-[722px]  flex justify-center">
+          <div className="pt-2 grid grid-cols-4 gap-2 pr-2">
+            {products &&
+              products.map((el, index) => {
+                return <Card key={index} item={el} />;
+              })}
+          </div>
         </div>
       </div>
     </div>

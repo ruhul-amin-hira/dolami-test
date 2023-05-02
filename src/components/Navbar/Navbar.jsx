@@ -6,7 +6,7 @@ import UserIcon from "./UserIcon";
 
 const Navbar = () => {
   return (
-    <div className="px-[16px] h-[60px] nav-bg w-full flex items-center justify-between fixed">
+    <div className="px-[16px] h-[60px] nav-bg w-full flex items-center justify-between fixed z-10">
       <div className="basis-56">
         <Link to="/">
           <div className="max-w-[180px]">
