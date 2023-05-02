@@ -2,6 +2,8 @@
 
 ![Screenshot](./public/s1.png)
 
+## Live linK: [https://avatown-demo.vercel.app](https://avatown-demo.vercel.app)
+
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Available Scripts
