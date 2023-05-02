@@ -23,4 +23,11 @@
   .nav-bg {
     background-image: linear-gradient(to right bottom, #391C84, #7F208B);
   }
+
+  .circle {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+  }
 }
